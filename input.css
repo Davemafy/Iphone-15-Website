@@ -56,6 +56,10 @@ h1, h2 , h3 ,h4{
 	text-wrap: balance ;
 }
 
+h1 {
+    font-size: clamp(1rem, 4vw, 6rem);
+}
+
 .grid-row-auto{
     grid-template-rows: auto 1fr auto;
 }
