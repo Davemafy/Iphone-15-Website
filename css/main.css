@@ -768,11 +768,6 @@ video {
   color: rgb(18 18 18 / var(--tw-text-opacity));
 }
 
-.text-\[\#5325f2\] {
-  --tw-text-opacity: 1;
-  color: rgb(83 37 242 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -878,8 +873,15 @@ h1, h2 , h3 ,h4{
   text-wrap: balance ;
 }
 
-h1 {
-  font-size: clamp(1rem, 4vw, 6rem);
+.text-fluid-sm {
+  font-size: clamp(1.3rem, 7vw, 6rem);
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, #007bff, #28a745);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
 }
 
 .grid-row-auto{
